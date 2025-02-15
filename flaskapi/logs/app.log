@@ -1,0 +1,90 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3031
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:18:16] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:18:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:18:53] "GET /api/message HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:19:57] "GET /api/message?message=hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:20:08] "GET /api/message HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:20:41] "GET /api/message HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:20:45] "GET /api/message HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3031
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:22:18] "GET /api/header-message HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:23:28] "GET /api/message HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:23:42] "GET /api/message?message=hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:23:52] "GET /api/message HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:24:38] "GET /api/message HTTP/1.1" 200 -
+INFO:__main__:Received JSON: {'name': 'John', 'message': 'Hello, World!'}
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:24:42] "[35m[1mPOST /api/message HTTP/1.1[0m" 201 -
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3031
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:__main__:PUT request with id: 123
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:26:26] "PUT /api/message/123 HTTP/1.1" 200 -
+INFO:__main__:DELETE request with id: 123
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 08:27:19] "DELETE /api/message/123 HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug: * Detected change in 'C:\\tmp\\New folder\\flask\\flaskapi\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:3031
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-797-028
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 09:26:05] "[33mGET / HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [15/Feb/2025 09:26:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
